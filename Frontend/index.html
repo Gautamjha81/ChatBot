@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My ChatBot</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <header>
+      <div class="dot"></div>
+      <h1>My ChatBot</h1>
+    </header>
+
+    <div id="chat-window">
+      <div class="empty-state" id="empty-state">
+        <h2>Say hello 👋</h2>
+      </div>
+    </div>
+
+    <div id="input-area">
+      <form id="input-form" onsubmit="return false;">
+        <textarea
+          id="user-input"
+          placeholder="Ask anything"
+          rows="1"
+        ></textarea>
+        <button id="send-btn" type="button">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+          </svg>
+        </button>
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
