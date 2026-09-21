@@ -55,7 +55,7 @@ Rules:
     // tool_choice: "required",
     messages: message,
     tools: [
-      {
+      { 
         type: "function",
         function: {
           name: "webSearch",
