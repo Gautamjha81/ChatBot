@@ -43,7 +43,7 @@ Rules:
       content: text,
      },)
      const MAX_RETRIES=6;
-     let count;
+     let count=0;
    while(true){
     if(count>MAX_RETRIES){
      return "Sorry,i am not able to find your query.please try again"
