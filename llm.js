@@ -4,7 +4,7 @@ const readline=require("readline/promises");
 const NodeCache = require("node-cache");
 
 const tvly = tavily({
-  apiKey: process.env.TAVILY_API_KEY,
+  apiKey: process.env.TAVILY_API_KEY, 
 });
 
 const groq = new Groq({
